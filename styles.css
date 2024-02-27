@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.login {
+    background-color: #EB662B;
+    color: #ffffff; 
+    padding: 10px 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FEF7F4;
+    color: #fff;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.row {
+
+
+
+}
+
+
+.row .right {
+    float: left;
+    padding: 100px;
+}
+
+.row .left {
+    float: right;
+    padding: 100px;
+}
+
+.strong {
+    font-size: 30px;
+}
