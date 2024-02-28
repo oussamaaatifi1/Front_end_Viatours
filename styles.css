@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+
+}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
-
+/* This is a single-line comment */
 header .container {
     display: flex;
     justify-content: flex-start;
@@ -25,43 +32,106 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: #000000;
-    font-weight: bold;
 }
+header {
+    background-color: #FEF7F4;
+    color: #fff;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+/* This is a single-line comment */
 
+/* MAIN */
+.left b  {
+    color : #EB662B;
+}
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-header {
-    background-color: #FEF7F4;
-    color: #fff;
-}
-
-.logo img {
-    max-width: 100%;
-    height: auto;
-}
 
 
 
+
+
+/* MAIN */
 .row {
-
-
-
+    background-color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
 }
 
 
 .row .right {
-    float: left;
-    padding: 100px;
+    float: right;
+    padding: 70px;
+    margin-right: 90px;
+    margin-top: -50px;
 }
 
 .row .left {
-    float: right;
-    padding: 100px;
+    float: left;
+    padding: 70px;
+    margin-left: 90px;
 }
 
-.strong {
-    font-size: 30px;
+
+
+
+.section {
+    display: flex;
+    margin-left: 60px;
 }
+.section div{
+display: relative;
+  margin: 10px;
+  font-size: 15px;
+  margin: auto;
+  position: relative;
+  margin: 0 4px 12px 10px;
+  width: 500px;
+}
+.section  p h5 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.button {
+    float: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #EB662B;
+    color: #ffffff; 
+    height: 25px;
+    width: 120px;
+    padding:  10px;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    background-color: #FEF7F4;
+}
+.foot {
+    padding: 10px;
+    top : 20%;
+    left : 5%;
+    position: relative;
+} 
+
+h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
