@@ -84,7 +84,12 @@ header {
 }
 
 
-
+h3 {
+    margin-top: -100px;
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: 900;
+}
 
 .section {
     display: flex;
